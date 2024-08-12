@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submitted</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.icon {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: green;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.go-back {
+    color: #6366f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.go-back:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .go-back {
+        font-size: 16px;
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="72" height="72" fill="none" viewBox="0 0 24 24" stroke="green">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+            </svg>
+        </div>
+        <h1>Form submitted successfully!</h1>
+        <p>Thank you! The form has been submitted successfully.<br>We will reply to you soon!</p>
+        <a href="#" class="go-back">Go back</a>
+    </div>
+</body>
+</html>
